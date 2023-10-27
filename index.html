@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MyPage</title>
+<link href="main.css" rel="stylesheet">
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+	rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+	rel="stylesheet">
+</head>
+
+<body>
+	<div class="nav">
+		<ul>
+			<li><a class="navitem" href="#">My Page</a></li>
+			<li><a class="navitem" href="#experience">Experience</a></li>
+			<li><a class="navitem" href="#skills">Skills</a></li>
+			<li><a class="navitem" href="#education">Education</a></li>
+			<li><a class="navitem" target="__blank" href="Resume.pdf">Resume</a></li>
+		</ul>
+	</div>
+
+
+
+	<div class="secmain">
+		<div class="imgdiv">
+			<img class="myimg" src="Images/Home.jpg" alt="Loading">
+		</div>
+		<div class="informdiv">
+			<p class="name">Abhisek Das</p>
+			<p class="job">Full Stack Developer / Salesforce Developer</p>
+			<div class="details">
+			<p class="email">
+				<img class="envelope" src="Images/Email.png" alt="Loading"><a
+					class="email2" href="mailto:abhisekdas.da@gmail.com">abhisekdas.da@gmail.com</a>
+			</p>
+			<p class="phone">
+				<img class="mobile" src="Images/Phone.png" alt="Loading">+91
+				8617204597
+			</p>
+			<p class="location">
+				<i class="fa fa-map-marker" style="font-size: 21px;"></i>Kolkata,
+				India
+			</p>
+			</div>
+			<div class="links">
+				<a class="link" target="__blank"
+					href="https://www.linkedin.com/in/sdabhisek/"><img
+					class="linkedin" src="Images/LinkedIn.png" alt="Loading"
+					onContextMenu="return false;"></a> <a class="link"
+					target="__blank" href="https://twitter.com/ADASLife99"><img
+					class="twitter" src="Images/Twitter.png" alt="Loading"
+					onContextMenu="return false;"></a> <a class="link"
+					target="__blank" href="https://github.com/ADAS85"><img
+					class="github" src="Images/Github.png" alt="Loading"
+					onContextMenu="return false;"></a> <a class="link"
+					target="__blank" href="https://leetcode.com/james800/"><img
+					class="leetcode" src="Images/Leetcode.png" alt="Loading"
+					onContextMenu="return false;"></a> <a class="link"
+					target="__blank" href="https://www.hackerrank.com/abhisekdas_da"><img
+					class="hackerrank" src="Images/HackerRank.png" alt="Loading"
+					onContextMenu="return false;"></a> <a class="link"
+					target="__blank"
+					href="https://www.salesforce.com/trailblazer/abdas84"><img
+					class="trailhead" src="Images/Trailhead.png" alt="Loading"
+					onContextMenu="return false;"></a>
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div id="experience">
+		<h2 class="exp">Experience</h2>
+
+		<div class="cognizant-main">
+			<div class="cts-img">
+				<img class="cts" src="Images/Cognizant.png" alt="Loading">
+			</div>
+			<div class="cts-info">
+				<h3 class="cts-head1">Programmer Analyst</h3>
+				<h4 class="cts-head2">Cognizant &ensp; &ensp; Full-Time &ensp;
+					&ensp; Nov 2022 - Present</h4>
+				<span class="btn" title="Click to expand!" onclick="cts()"> <i
+					id="one" class="fas fa-caret-right" style="font-size: 20px;"></i>&ensp;
+					Salesforce Administration & Development
+				</span><br>
+				<div class="collapse">
+					Created multiple business flows for the application.<br>
+					Worked on user access, data security and application data
+					modelling.<br> Co-worked on multiple Lightning Web Components
+					and API integrations.
+				</div>
+				<span onclick="cts2()" title="Click to expand!" class="btn">
+					<i id="two" class="fas fa-caret-right" style="font-size: 20px;"></i>&ensp;
+					Full Stack Java Development
+				</span><br>
+				<div class="collapse1">
+					Worked in the development of front end using HTML, CSS, BS & JS.<br>
+					Created multiple JSP and wired them to the database using Spring
+					Boot.<br> Implemented JDBC and JPA for database connection.
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="codingal-main">
+			<div class="codingal-img">
+				<img class="codingal" src="Images/Codingal.png" alt="Loading">
+			</div>
+			<div class="codingal-info">
+				<h3 class="codingal-head1">Senior Coding Instructor</h3>
+				<h4 class="codingal-head2">Codingal &ensp; &ensp; Part-Time
+					&ensp; &ensp; Sep 2022 - Present</h4>
+				<span onclick="codingal()" title="Click to expand!" class="btn">
+					<i id="three" class="fas fa-caret-right" style="font-size: 20px;"></i>&ensp;
+					Teaching Grade 1-12
+				</span><br>
+				<div class="collapse2">
+					Teaching grade 1-12 kids online. One of the loveliest feelings ever
+					&#128524.<br>
+					<p style="line-height: 22px; margin: 5px 0px 0px 0px;">Curriculum
+						includes HTML, CSS, BS, JS, Python, Git, Java, Scratch, AI
+						Block-Based, Thunkable.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+
+		<div class="genc-main">
+			<div class="genc-img">
+				<img class="cts" src="Images/Cognizant.png" alt="Loading">
+			</div>
+			<div class="genc-info">
+				<h3 class="genc-head1">GenC Intern</h3>
+				<h4 class="genc-head2">Cognizant &ensp; &ensp; Internship
+					&ensp; &ensp; Feb 2022 - Jun 2022</h4>
+				<span onclick="genc()" title="Click to expand!" class="btn">
+					<i id="four" class="fas fa-caret-right" style="font-size: 20px;"></i>&ensp;
+					Full Stack Java Development
+				</span><br>
+				<div class="collapse3">
+					Acquired advanced knowledge of Core Java & Spring Framework.<br>
+					Creating mini web-apps using Spring Boot.<br>Created a
+					real-life Tourism Management System using Spring Boot.
+				</div>
+			</div>
+		</div>
+		<br>
+
+		<div class="highradius-main">
+			<div class="hr-img">
+				<img class="highradius" src="Images/HighRadius.png" alt="Loading">
+			</div>
+			<div class="highradius-info">
+				<h3 class="hr-head1">Intern</h3>
+				<h4 class="hr-head2">HighRadius &ensp; &ensp; Internship &ensp;
+					&ensp; Jul 2021 - Aug 2021</h4>
+				<span onclick="highradius()" title="Click to expand!" class="btn">
+					<i id="five" class="fas fa-caret-right" style="font-size: 20px;"></i>&ensp;
+					Machine Learning Model Development
+				</span><br>
+				<div class="collapse4">
+					Acquired in-depth Core Python knowledge and basics of ML models.<br>
+					<p style="line-height: 22px; margin: 5px 0px 8px 0px;">Implemented
+						Pandas, Numpy, Matplotlib, Scipy, Scikit-Learn and Seaborn to
+						create basic Linear Regression and Logistic Regression models.</p>
+					First time AI experience &#128525.
+				</div>
+			</div>
+		</div>
+		<br>
+
+		<div class="drdo-main">
+			<div class="drdo-img">
+				<img class="drdo" src="Images/DRDO.png" alt="Loading">
+			</div>
+			<div class="drdo-info">
+				<h3 class="drdo-head1">Summer Intern</h3>
+				<h4 class="drdo-head2">
+					Defense Research & Development Organization (DRDO) &ensp; &ensp;
+					Internship &ensp; &ensp; <br>Feb 2021 - Apr 2021
+				</h4>
+				<span onclick="drdo()" title="Click to expand!" class="btn">
+					<i id="six" class="fas fa-caret-right" style="font-size: 20px;"></i>&ensp;
+					Summer Intern
+				</span><br>
+				<div class="collapse5">
+					Created graphs between different organic compound concentration in
+					Excel.<br> Separated organic compounds using Rotary
+					Evaporator.<br>One of the life-changing experiences ever
+					&#128519.
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="skills">
+		<h2 class="exp" style="margin-bottom: 50px;">Skills</h2>
+		<div class="webdev">
+			<img src="Images/HTML.png" alt="Loading" height="120" width="110">
+			<img src="Images/CSS.png" alt="Loading" height="120" width="80">
+			<img src="Images/JS.png" alt="Loading" height="120" width="90">
+			<img style="transform: translateY(-10px);" src="Images/Bootstrap.png"
+				alt="Loading" height="80" width="100"> <img
+				style="transform: translateY(-10px);" src="Images/Tailwind.png"
+				alt="Loading" height="70" width="130">
+		</div>
+
+		<div class="java">
+			<img style="transform: translateY(30px);" src="Images/Java.png"
+				alt="Loading" height="150" width="140"> <img
+				src="Images/Spring.png" alt="Loading" height="45" width="170">
+			<img src="Images/Hibernate.png" alt="Loading" height="55" width="190">
+			<img style="transform: translateY(-10px);" src="Images/JUnit.png"
+				alt="Loading" height="45" width="140"> <img
+				style="transform: translateY(-10px);" src="Images/Maven.png"
+				alt="Loading" height="40" width="150">
+		</div>
+
+		<div class="software">
+			<img src="Images/Salesforce.png" alt="Loading" height="100"
+				width="140"> <img src="Images/SQL.png" alt="Loading"
+				height="90" width="180">
+		</div>
+		<div class="path-parent"><div class="path"></div></div>
+		<div class="langs">
+			<img src="Images/Python.png" alt="Loading" height="90" width="75">
+			<img style="transform: translateY(-20px);" src="Images/Git.png"
+				alt="Loading" height="50" width="118"> <img
+				style="transform: translateY(-10px);" src="Images/PHP.png"
+				alt="Loading" height="65" width="120"> <img
+				style="transform: translateY(-10px);" src="Images/C.png"
+				alt="Loading" height="65" width="60"> <img
+				style="transform: translateY(-30px);" src="Images/ServiceNow.png"
+				alt="Loading" height="30" width="210">
+		</div>
+
+		<div class="extra">
+			<img src="Images/Photoshop.png" alt="Loading" height="62" width="62">
+			<img src="Images/Premiere.png" alt="Loading" height="62" width="62">
+			<img src="Images/Scratch.png" alt="Loading" height="60" width="160">
+		</div>
+	</div>
+
+	<div id="education">
+		<h2 style="margin-bottom: 35px;" class="exp">Education</h2>
+		<div class="eds">
+		<div class="college">
+			<img src="Images/NIT.png" alt="Loading" height="110" width="150">
+			<br>
+			<p class="col-1">Narula Institute of Technology</p>
+			<p class="col-2">Kolkata, West Bengal</p>
+			<p class="col-3">Bachelor of Technology</p>
+			<p class="col-4">Electronics & Instrumentation Engineering (EIE)</p>
+			<p class="col-5">Departmental Topper</p>
+		</div>
+		<div class="class-12">
+			<img src="Images/STCS.png" alt="Loading" height="120" width="120">
+			<p class="cl12-1">St. Thomas Church School</p>
+			<p class="cl12-2">Howrah, West Bengal</p>
+			<p class="cl12-3">Grade 12</p>
+			<p class="cl12-4">Computer Science</p>
+		</div>
+		<div class="class-10">
+			<img src="Images/STCS.png" alt="Loading" height="120" width="120">
+			<p class="cl12-1">St. Thomas Church School</p>
+			<p class="cl12-2">Howrah, West Bengal</p>
+			<p class="cl12-3">Grade 10</p>
+		</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
